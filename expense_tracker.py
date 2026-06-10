@@ -12,9 +12,11 @@ while True:
         amount = float(input("Enter expense amount: "))
         expenses.append(amount)
         print("Expense Added Successfully!")
+        
 
     elif choice == "2":
         print("Expenses:", expenses)
+        print("Total Spending:", sum(expenses))
 
     elif choice == "3":
         print("Goodbye!")
