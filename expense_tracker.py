@@ -18,6 +18,9 @@ while True:
         print("Expenses:", expenses)
         print("Total Spending:", sum(expenses))
         print("Number of Expenses:", len(expenses))
+        if expenses:
+    print("Highest Expense:", max(expenses))
+        
 
     elif choice == "3":
         print("Goodbye!")
