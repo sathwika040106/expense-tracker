@@ -17,6 +17,7 @@ while True:
     elif choice == "2":
         print("Expenses:", expenses)
         print("Total Spending:", sum(expenses))
+        print("Number of Expenses:", len(expenses))
 
     elif choice == "3":
         print("Goodbye!")
